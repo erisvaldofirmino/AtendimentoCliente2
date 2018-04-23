@@ -1,0 +1,28 @@
+/home/erisvaldo/PycharmProjects/Atendimento/venv/bin/python /home/erisvaldo/PycharmProjects/Atendimento/main.py
+Nível do cliente [10 VIP] - [00 Comum]: 10
+Categoria do Veículo [A = Carro | B = Moto | Caminhão = C | Bike = D]: a
+
+
+Nome do Cliente: Joaquim 
+Contato do cliente: 98585-8987
+Endereço do cliente: Avenida Brasil
+Placa do vículo: dfg-3256
+Marca do veículo: Ford
+Modelo do Veículol: Ranger
+Tipo de lavagem: Completa
+Hora de entrada: 14
+Hora de saída: 18
+Valor do serviço: R$ 120
+
+
+Cliente........: Joaquim  | Categoria...: VIP | Veículo...: Carro
+Contato........:  98585-8987
+Traceback (most recent call last):
+  File "/home/erisvaldo/PycharmProjects/Atendimento/main.py", line 39, in <module>
+    print("Placa..........: ", servReal.getPlaca())
+  File "/home/erisvaldo/PycharmProjects/Atendimento/veiculo.py", line 22, in getPlaca
+    return self.placa
+AttributeError: 'Servico' object has no attribute 'placa'
+Endereço.......:  Avenida Brasil
+
+Process finished with exit code 1
